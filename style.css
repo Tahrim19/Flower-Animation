@@ -61,7 +61,7 @@ body {
 
 .flowers {
   position: relative;
-  transform: scale(0.7);
+  transform: translateY(-17vh) scale(0.8);
 }
 
 .flower {
@@ -1205,9 +1205,9 @@ body > h1 {
 
 @media (max-width: 600px) {
   body > h1 {
-    top: clamp(300px, 14vh, 110px) !important;
+    top: clamp(190px, 14vh, 110px) !important;
     width: 94vw !important;
     gap: 0.18em !important;
-    font-size: clamp(0.76rem, 3.9vw, 0.95rem) !important;
+    font-size: clamp(0.8rem, 3.9vw, 0.95rem) !important;
   }
 }
