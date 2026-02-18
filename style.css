@@ -1183,7 +1183,7 @@ body {
 body > h1 {
   width: min(94vw, 920px) !important;
   max-width: 94vw !important;
-  top: clamp(28px, 5.5vh, 52px) !important;
+  top: clamp(96px, 18vh, 180px) !important;
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -1195,7 +1195,7 @@ body > h1 {
 
 @media (max-width: 900px) {
   body > h1 {
-    top: clamp(20px, 4.5vh, 34px) !important;
+    top: clamp(84px, 16vh, 140px) !important;
     width: 96vw !important;
     letter-spacing: 0.02em !important;
     gap: 0.24em !important;
@@ -1205,7 +1205,7 @@ body > h1 {
 
 @media (max-width: 600px) {
   body > h1 {
-    top: clamp(16px, 4vh, 26px) !important;
+    top: clamp(300px, 14vh, 110px) !important;
     width: 94vw !important;
     gap: 0.18em !important;
     font-size: clamp(0.76rem, 3.9vw, 0.95rem) !important;
