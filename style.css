@@ -1178,3 +1178,36 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+/* Responsive heading only */
+body > h1 {
+  width: min(94vw, 920px) !important;
+  max-width: 94vw !important;
+  top: clamp(28px, 5.5vh, 52px) !important;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 0.2em;
+  line-height: 1.25;
+  font-size: clamp(0.9rem, 2.2vw, 1.4rem) !important;
+  padding: 0 0.4rem;
+}
+
+@media (max-width: 900px) {
+  body > h1 {
+    top: clamp(20px, 4.5vh, 34px) !important;
+    width: 96vw !important;
+    letter-spacing: 0.02em !important;
+    gap: 0.24em !important;
+    font-size: clamp(0.82rem, 3.2vw, 1.1rem) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  body > h1 {
+    top: clamp(16px, 4vh, 26px) !important;
+    width: 94vw !important;
+    gap: 0.18em !important;
+    font-size: clamp(0.76rem, 3.9vw, 0.95rem) !important;
+  }
+}
