@@ -61,7 +61,19 @@ body {
 
 .flowers {
   position: relative;
-  transform: translateY(-17vh) scale(0.8);
+  transform: translateY(-8vh) scale(0.74);
+}
+
+@media (max-width: 900px) {
+  .flowers {
+    transform: translateY(-12vh) scale(0.78);
+  }
+}
+
+@media (max-width: 600px) {
+  .flowers {
+    transform: translateY(-17vh) scale(0.8);
+  }
 }
 
 .flower {
@@ -1183,7 +1195,7 @@ body {
 body > h1 {
   width: min(94vw, 920px) !important;
   max-width: 94vw !important;
-  top: clamp(96px, 18vh, 180px) !important;
+  top: clamp( 18vh, 180px) !important;
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
